@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>chambal ki halchal</title>
+  <style>
+    .navbar-toggler {
+      color: white;
+    }
+
+    /* .navbar-toggler-icon {
+            background-color: white;
+        } */
+    .menu {
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .fex {
+      display: flex;
+    }
+
+    .newsauthor {
+      display: inline-block;
+      padding: 5px;
+      font-weight: bold;
+    }
+
+    /* mobile */
+    .card {
+
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+
+    /* Adjustments for tablets */
+    @media screen and (min-width: 600px) {
+      .card {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 17%;
+      }
+    }
+
+    /* Adjustments for desktops */
+    @media screen and (min-width: 1024px) {
+      .card {
+        width: 78%;
+        margin-left: 8%;
+        margin-right: 15%;
+      }
+    }
+
+       /* footer start */
+   .footer {
+  /* position: relative; */
+  width: 100%;
+  height: 300px;
+  background: #3586ff;
+  min-height: 100px;
+  /* padding: 20px 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  /* opacity: 0.75;
+  font-weight: 300; */
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+/* mobile */
+.footer {
+
+margin-top:3%;
+}
+
+/* Adjustments for tablets */
+@media screen and (min-width: 600px) {
+.footer {
+  margin-top:3%;
+}
+}
+
+/* Adjustments for desktops */
+@media screen and (min-width: 1024px) {
+.footer {
+  margin-top: 3%;
+}
+}
+   /* footer end */
+  </style>
+</head>
+
+<body style="background: #f2f3f5;">
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light  text-light" style="background-color: #002866;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#"><img src="../img/aajtak-logo.png" alt="" width="55px"></a>
+      <button class="navbar-toggler" style="border: 1px solid rgb(255, 255, 255); color: #f7f7f7;" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="menu">menu</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="../news.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../gandhisagar.html">गांधी सागर</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../bhp.html">भानपुरा</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../garoth.html">गरोठ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../mds.html">मंदसौर</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../nmch.html">नीमच जिला</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <div class="fex">
+    <div class="logo"><img src="../img/logo.png" alt="" width="110px" height="65px"></div>
+    <div class="marquee">
+      <marquee behavior="" direction="left"
+        style="background-color: black; color: white; font-size: 20px; height: 65px;">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, earum error dolore molestiae alias
+          corrupti ab, omnis placeat eveniet distinctio quis, quidem iusto quia tempore suscipit? Suscipit saepe amet
+          eos magnam minus natus id maiores, optio quae obcaecati delectus non modi iusto temporibus, doloribus quaerat
+          iste ratione deleniti? Rem, eos?</p>
+      </marquee>
+    </div>
+  </div>
+  <!-- card start -->
+  <div class="card" style="border: 0px; background: #f2f3f5; ">
+    <div class="conten" >
+      <div class="card " style="border: 0px; background: #f2f3f5; box-shadow: 0px 0px 9px 2px #aaa; ">
+        <div class="card-body">
+
+          <p class="card-text" style="font-weight: 600; font-size: 130%;"> <span style="color: red; ">गांधी सागर
+              /</span> भारत देश के यशस्वी  प्रधानमंत्री माननीय नरेन्द्र मोदी जी के जन्मदिवस के अवसर पर ग्राम पंचायत गाँधीसागर में स्वच्छता अभियान चलाया गया</p>
+          <img src="../img/sfhai1.jpg" class="card-img-top" alt="..." style="width: 90%; margin-left: 2%;">
+
+          <p class="card-text"><small class="text-muted"></small></p>
+          <div class="newsdatacontainer">
+            <span class="newsauthor">चंबल की हाल चाल</span><br>
+            <span class="newsposttime"><i class="fa fa-clock-o"></i> 17,09,2024 02:10 PM IST</span>
+            <!-- <span class="newsauthor"> views  <i class="fa fa-eye"></i> : 59</span>  -->
+            <p style="margin-top: 5px; font-size: 18px; overflow-wrap: break-word; font-family: 'Eczar', serif;  font-weight: 540;">
+                भारत देश के यशस्वी  प्रधानमंत्री माननीय नरेन्द्र मोदी जी के जन्मदिवस के अवसर पर ग्राम पंचायत गाँधीसागर में स्वच्छता अभियान चलाया गया जिसमे ग्राम पंचायत सरपंच मनीष परिहार सचिव देवीलाल कछावा , सौरव डाबर इंजिनियर जनपद पंचायत , ग्राम विकास प्रस्फुटन समिति गाँधीसागर अध्यक्ष दिनेश सांखला , सचिव पूरन माटा आदि ने ग्राम मे सेवा पखवाडा के तहत् साफ सफाई की तथा स्वच्छता को लेकर सरपंच परिहार ने शपथ दिलवाई गई ।
+         &nbsp;</p>
+          </div>
+        </div>
+      </div> 
+      <div class="card mb-3" style="border: 0px; background: #f2f3f5; box-shadow: 0px 0px 9px 2px #aaa; margin-top: 0.3%;">
+        <br><img src="../img/sfhai2.png" class="card-img-top" alt="..."
+          style="width: 85%; margin-left: 3%; width: 90%; ">
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <p class="card-text" style="margin-top: 5px; font-size: 18px; overflow-wrap: break-word; font-family: 'Eczar', serif; font-weight: 540;">
+            शासकीय उच्ततर माध्यमिक विद्यालय गाँधीसागर नम्बर तीन पर शनिवार २१ सितम्बर को स्वच्छता सेवा अभियान के तहत् ग्राम पंचायत स्तर पर रंगोली प्रतियोगिता निबन्ध तथा भाषण प्रतियोगिता आयोजित की गई साथ ही उपस्थित छात्र छात्राओं ने विधालय प्रांगण में साफ सफाई की ।  इस अवसर पर BRC अधिकारी शेखर वधवा -  सरपंच मनीष परिहार - पत्रकार पूरन माटा  - दिनेश शर्मा BSNL  - प्रभारी प्राचार्य प्रभा मेहरा - जनशिक्षक के के गोस्वामी सहित विद्यालय स्टॉफ मौजूद था ।</p>
+            <img src="../img/sfhai3.jpg" class="card-img-top" alt="..."
+            style="width: 85%; margin-left: 3%; width: 90%; ">
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    <!-- card end -->
+
+  </div>
+
+  <!-- bootstap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+    <!-- footer start -->
+ 
+    <footer class="footer">
+      <!-- <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div> -->
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+    
+      </ul>
+      <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
+    </footer></footer> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   <!--  footer end -->   
+</body>
+
+</html>
