@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../cnt.css">
+    <title>chambal ki halchal</title>
+    <style>
+        .navbar-toggler {
+            color: white;
+        }
+
+        /* .navbar-toggler-icon {
+            background-color: white;
+        } */
+        .menu {
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .fex {
+            display: flex;
+        }
+
+        .newsauthor {
+            display: inline-block;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        /* mobile */
+        .card {
+
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+
+        /* Adjustments for tablets */
+        @media screen and (min-width: 600px) {
+            .card {
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 17%;
+            }
+        }
+
+        /* Adjustments for desktops */
+        @media screen and (min-width: 1024px) {
+            .card {
+                width: 78%;
+                margin-left: 8%;
+                margin-right: 15%;
+            }
+        }
+
+        /* footer start */
+        .footer {
+            /* position: relative; */
+            width: 100%;
+            height: auto;
+            background: #3586ff;
+            min-height: 100px;
+            /* padding: 20px 50px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .social-icon,
+        .menu {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        .social-icon__item,
+        .menu__item {
+            list-style: none;
+        }
+
+        .social-icon__link {
+            font-size: 2.5rem;
+            color: #fff;
+            margin: 0 10px;
+            display: inline-block;
+            transition: 0.5s;
+
+        }
+
+        .social-icon__link:hover {
+            transform: translateY(-10px);
+        }
+
+        .menu__link {
+            font-size: 1.5rem;
+            color: white;
+            margin: 0 10px;
+            display: inline-block;
+            transition: 0.5s;
+            text-decoration: none;
+            /* opacity: 0.75;
+  font-weight: 300; */
+        }
+
+        .menu__link:hover {
+            opacity: 1;
+        }
+
+        .footer p {
+            color: #fff;
+            margin: 15px 0 10px 0;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+
+        /* mobile */
+        .footer {
+
+            margin-top: 3%;
+        }
+
+        /* Adjustments for tablets */
+        @media screen and (min-width: 600px) {
+            .footer {
+                margin-top: 3%;
+            }
+        }
+
+        /* Adjustments for desktops */
+        @media screen and (min-width: 1024px) {
+            .footer {
+                margin-top: 3%;
+            }
+        }
+
+        /* footer end */
+        /* footer contect start */
+        /* mobile */
+        .color {
+
+            margin-left: 53px;
+        }
+
+        /* Adjustments for tablets */
+        @media screen and (min-width: 600px) {
+            .color {
+                margin-left: 108px;
+            }
+        }
+
+        /* Adjustments for desktops */
+        @media screen and (min-width: 1024px) {
+            .color {
+                margin-left: 108px;
+            }
+        }
+
+        /* footer contect end */
+    </style>
+</head>
+
+<body style="background: #f2f3f5; font-family: 'Arial', sans-serif; line-height: 1.6;">
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light  text-light" style="background-color: #002866;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#"><img src="../img/chambalmata.jpg" alt="" width="55px"></a>
+            <button class="navbar-toggler" style="border: 1px solid rgb(255, 255, 255); color: #f7f7f7;" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="menu">menu</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../gandhisagar.html">गांधी सागर</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../bhp.html">भानपुरा</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../garoth.html">गरोठ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../mds.html">मंदसौर</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="../nmch.html">नीमच जिला</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <div class="fex">
+        <div class="logo"><img src="../img/logo.png" alt="" width="110px" height="65px"></div>
+        <div class="marquee">
+            <marquee behavior="" direction="left"
+                style="background-color: black; color: white; font-size: 20px; height: 65px;">
+                <p>गांधी सागर | भानपुरा-गरोठ से आर्मी में चयनित 30 विद्यार्थियों का किया स्वागत/
+                    &nbsp;&nbsp; अनदेखी| गांधीसागर फारेस्ट आयोजन में जनप्रतिनिधियों व पत्रकारों को नहीं किया आमंत्रित 14
+                    अक्टूबर
+                    को शुरु हुआ आयोजन पूरी तरह से साबित हुआ फ्लॉप........./
+
+                    &nbsp;&nbsp; गांधी सागर | भारत देश के यशस्वी प्रधानमंत्री माननीय नरेन्द्र मोदी जी के जन्मदिवस के
+                    अवसर पर ग्राम
+                    पंचायत गाँधीसागर में स्वच्छता अभियान चलाया गया साथ ही विद्यालय में रंगोली निबंध व भाषण प्रतियोगिता
+                    भी संपन्न
+                    हुई/
+                </p>
+            </marquee>
+        </div>
+    </div>
+    <!-- card start -->
+    <div class="card" style="border: 0px; background: #f2f3f5; ">
+        <div class="conten">
+            <div class="card " style="border: 0px; background: #f2f3f5; box-shadow: 0px 0px 9px 2px #aaa; ">
+                <div class="card-body">
+
+                    <p class="card-text" style="font-weight: 600; font-size: 130%;"> <span style="color: red; ">गांधी
+                            सागर
+                            /</span> हायर सेकेण्डरी स्कूल गाँधीसागर नम्बर तीन पर मंगलवार को भीमराव अम्बेडकर जयन्ती मनाई
+                        गई  ।</p>
+
+
+
+                    <img src="../img/sc3no.jpg" class="card-img-top" alt="..." style="width: 90%; margin-left: 2%;">
+
+                    <p class="card-text"><small class="text-muted"></small></p>
+                    <div class="newsdatacontainer">
+                        <span class="newsauthor" style="color: red;">चंबल की हाल चाल &nbsp;&nbsp;&nbsp;<img src="../img/writer.png" alt="" width="30px" height="20px">&nbsp; पूरन माटा </span> <br>
+                        <span class="newsposttime"><i class="fa fa-clock-o"></i> 12/11/2024</span>
+                        <!-- <span class="newsauthor"> views  <i class="fa fa-eye"></i> : 59</span>  -->
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3"
+                style="border: 0px; background: #f2f3f5; box-shadow: 0px 0px 9px 2px #aaa; margin-top: 0.3%;">
+              
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+
+                    <img src="../img/sc3no-2.jpg" class="card-img-top" alt="..."
+                        style="width: 85%; margin-left: 3%; width: 90%; ">
+                        <p style="margin-top: 5px; font-size: 15px; overflow-wrap: break-word; font-family: 'Eczar', serif;  font-weight: 600;">
+                            इस अवसर पर विधार्थियों को संबोधित करते हुए सरपंच मनीष परिहार ने कहा कि डॉ अम्बेडकर एक महान
+                            व्यक्तित्व थे जिन्होने दलित वर्गो के उत्थान के साथ साथ भारतीय संविधान के निर्माण मे
+                            महत्वपूर्ण भूमिका निभाई थी । उन्होने अपना पूरा जीवन भारत में दलित वर्गों के लिए समानता और
+                            सामाजिक न्याय के लिए लडने मे लगा दिया ।
+                        </p>
+                   <br><br>
+                 <img src="../img/sc3no-1.jpg" class="card-img-top" alt="..."
+                        style="width: 85%; margin-left: 3%; width: 90%; ">
+                        <p class="card-text"
+                        style="margin-top: 5px; font-size: 15px; overflow-wrap: break-word; font-family: 'Eczar', serif; font-weight: 600;">
+                       
+                        इस अवसर पर ग्राम पंचायत सरपंच मनीष परिहार सचिव देवीलाल कछावा एवं अरुण कांटे उपस्थित थे । एवम विद्यालय परिवार ने अतिथियों का स्वागत किया तथा इसके पूर्व अतिथियो ने कार्यक्रम
+                        का शुभारम्भ डाँ भीमराव अम्बेडकर के चित्र पर माल्यार्पण एवं दीप प्रज्ज्वलित कर किया । सरपंच
+                        परिहार ने विधार्थियों को भारत के संविधान की शपथ दिलाई गई । कार्यक्रम का संचालन शिक्षिका रचना
+                        मण्डलोई ने किया ।
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+
+    </div>
+
+    <!-- bootstap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- footer start -->
+
+    <footer class="footer">
+        <!-- <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div> -->
+        <div class="ss">
+            <div class="ul" style="margin-top: 4%; ">
+                <ul class="social-icon">
+                    <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a></li>
+                    <li class="social-icon__item"><a class="social-icon__link" href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
+                </ul>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="../index.html">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+                    <li class="menu__item"><a class="menu__link" href="../contectpage.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="s1" style="margin-left:6%; margin-top: 4%;justify-content: center;">
+                <h5 class="color" style="color: white;  margin-top: 40px; margin-bottom: 30px;">Our Contact Information
+                </h5>
+                <p style=" margin-bottom: 30px;"><strong>Address:</strong> Bazar Colony, Gandhi Sagar,Dist Mandsaur MP
+                    (458771)
+                </p>
+                <p style=" margin-bottom: 30px;"><strong>Phone:</strong> +91-9424863765 / 9589617178
+                    <br><strong>Email:</strong>
+                    mattashivam333@gmail.com
+                </p>
+                <!-- <p><strong>Email:</strong> mattashivam333@gmail.com</p></div></div><br> -->
+                <p style="margin-left: 3%;">&copy;2024 Chambalkihalchal | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--  footer end -->
+</body>
+
+</html>

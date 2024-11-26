@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cnt.css">
     <title>chambal ki halchal</title>
     <style>
       .navbar-toggler {
@@ -75,7 +77,7 @@ height: 500px;}
    .footer {
   /* position: relative; */
   width: 100%;
-  height: 300px;
+  height: auto;
   background: #3586ff;
   min-height: 100px;
   /* padding: 20px 50px; */
@@ -155,7 +157,28 @@ margin-top:3%;
 }
 }
    /* footer end */
+   /* footer contect start */
+   /* mobile */
+   .color {
 
+margin-left: 53px;
+}
+
+/* Adjustments for tablets */
+@media screen and (min-width: 600px) {
+.color {
+ margin-left: 108px;
+}
+}
+
+/* Adjustments for desktops */
+@media screen and (min-width: 1024px) {
+.color {
+ margin-left: 108px;
+}
+}
+
+   /* footer contect end */
 /* card f */
    /* mobile */
 #cardf {
@@ -184,10 +207,14 @@ margin-right: 3%; */
 margin-top:73% ;
 }
 
+
 /* Adjustments for tablets */
 @media screen and (min-width: 600px) {
 #cardtext  {
   margin-top:60% ;
+}
+.add , .car{
+  display: flex;
 }
 }
 
@@ -196,6 +223,13 @@ margin-top:73% ;
   #cardtext {
 margin-top: 45%;
 }
+.add , .car{
+  display: flex;
+}
+}
+/* smal card */
+#shivna {
+  height: 97%;
 }
         </style>
          <!-- <script src="https://cdn.tailwindcss.com"></script> -->
@@ -338,8 +372,42 @@ margin-top: 45%;
   </div></a>
    </center>
    <!-- cards end -->
+    <!-- smal card  start-->
+   <div class="add" >
+    <div class="card mb-3" style="max-width: 540px; height: auto; margin-left: 6%; margin-right: 6%; margin-top: 5%;">
+      <div class="row g-0">
+        <div class="col-md-4" >
+          <img src="./img/shipra-sfhai2.jpg" class="img-fluid rounded-start" alt="..." id="shivna">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body"><a href="./daelyGSnews/shivnasfhai.html" style="color: black; text-decoration: none;">
+            <h5 class="card-title"> <span style="color: red; ">गांधी सागर /  </span></h5>
+            <p class="card-text" style="margin-top: 3%;">शिवना शुद्धिकरण प्रोजेक्ट को 31 जनवरी तक पूर्ण करें : कलेक्टर <br>मंदसौर कलेक्टर ने शिवना शुद्धिकरण शुद्धिकरण प्रोजेक्ट प्रोजेक्ट का निरीक्षण किया </p>
+            <p class="card-text"style="margin-top: 2%;"><small class="text-muted">13/11/2024</small></p></a>
+          </div>
+        </div>
+      </div>
+    </div> &nbsp;&nbsp;&nbsp;
+<!-- 2nd  -->
+<div class="card mb-3" style="max-width: 540px; height: auto; margin-left: 6%; margin-right: 6%; margin-top: 5%;">
+  <div class="row g-0">
+    <div class="col-md-4" >
+      <img src="./img/sc3no.jpg" class="img-fluid rounded-start" alt="..." id="shivna" >
+    </div>
+    <div class="col-md-8">
+      <div class="card-body"><a href="./daelyGSnews/shashkiy-vidhiyalay.html" style="color: black; text-decoration: none;">
+        <h5 class="card-title"> <span style="color: red; ">गांधी सागर /  </span></h5>
+        <p class="card-text" style="margin-top: 3%;">हायर सेकेण्डरी स्कूल गाँधीसागर नम्बर तीन पर मंगलवार को भीमराव अम्बेडकर जयन्ती मनाई गई <br>इस अवसर पर विधार्थियों को संबोधित करते हुए सरपंच मनीष परिहार ने कहा कि... read more</p>
+        <p class="card-text"style="margin-top: 2%;"><small class="text-muted">13/11/2024</small></p></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+   </div>
+     <!-- smal card end -->
     <!-- card -->
-     
+     <div class="car" >
      <div class="card bg-dark text-white" id="cardf" style="margin-left: 6%; margin-top: 3%; margin-right: 3%; height: 400px; border: 0px;">
       <a href="./daelyGSnews/flootin.html" style="color: white; text-decoration: none;">
       <img src="./img/dam2.jpg" class="card-img" alt="..."  height="400px">
@@ -358,45 +426,47 @@ margin-top: 45%;
               ये वो नदी है जो मध्य प्रदेश की मशहूर विंध्याचल पर्वतमाला से निकलकर युमना में मिलने तक अपने 1024 किलोमीटर लम्बे सफर में तीन राज्यों को जीवन देती है।
               महाभारत से रामायण तक हर महाकाव्य में दर्ज होने वाली चम्बल नदी तो आईये आज आपको लेकर चलते हैं चंबल नदी की सेर पर <br> CLICK HERE TO read more...
         </b>
-     </div></a> </div>
+     </div></a> </div></div>
 
-<br><br>
-   <!-- footer start -->
- 
-   <footer class="footer">
-    <!-- <div class="waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
-    </div> -->
-    <ul class="social-icon">
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-facebook"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a></li>
-    </ul>
-    <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="./index.html">Home</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
-      <li class="menu__item"><a class="menu__link" href="./contectpage.html">Contact</a></li>
+<br><br> 
+<!-- footer start -->
+<footer class="footer" >
+  <!-- <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div> -->
+  <div class="ss"><div class="ul" style="margin-top: 4%; ">
+  <ul class="social-icon" >
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+  </ul>
+  <ul class="menu" >
+    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
   
-    </ul>
-    <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
-  </footer></footer> 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
- <!--  footer end --> 
+  </ul></div>
+  <div class="s1" style="margin-left:6%; margin-top: 4%;" ><h5 class="color" style="color: white;  margin-top: 40px; margin-bottom: 30px;">Our Contact Information</h5> 
+    <p style=" margin-bottom: 30px;"><strong>Address:</strong> Bazar Colony, Gandhi Sagar,Dist Mandsaur MP (458771) </p>
+    <p style=" margin-bottom: 30px;"><strong>Phone:</strong> +91-9424863765 / 9589617178 <br><strong>Email:</strong> mattashivam333@gmail.com </p>
+    <!-- <p><strong>Email:</strong> mattashivam333@gmail.com</p></div></div><br> -->
+  <p style="margin-left: 3%;">&copy;2024 Chambalkihalchal | All Rights Reserved</p> </div></div>
+</footer> 
+<!-- footer end -->
     <!-- bootstap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
